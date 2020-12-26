@@ -1,0 +1,57 @@
+/* aplicando estilos al header que incluye
+ menu de nav y todo el contenido de la imagen*/
+.contenedorImagenHeader{
+display: grid;
+grid-template-columns: 100%;
+}
+.imgInicio{
+    width: 100%;
+    height: 400px;
+    padding: 0px 30px;
+    opacity: .5;
+    filter: brightness(40%);
+}
+.conteControlDeImg{
+    position: absolute;
+    right:5%;
+    height: 400px;
+    min-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteControlDeImg h1{
+    font-size: 60px;
+}
+.conteControlDeImg img{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    filter: brightness(80%);
+    user-select: none;
+}
+.conteControlDeImg div{
+    font-size: 40px;
+    color: cornsilk;
+    padding: 10px;
+    background-color: rgb(71, 72, 75);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.conteControlDeImg div:hover{
+    background-color: rgb(53, 54, 56);
+}
+/* pagina de inicio sesion uno  */
+.sesionUno{
+    height: 200px;
+    margin:30px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sesionUno p{
+    font-size: 20px;
+    text-align: center;
+}

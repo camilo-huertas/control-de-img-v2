@@ -3,12 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <button id="atras">atras</button>
-    <img src="" alt="">
-    
+    <header>
+        <!-- menu de navegacion header -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-ligth">
+            <div class="container">
+                <a href="" class="navbar-brand">
+                    <img src="/imagenes/logo-brujula.png" width="60" height="60" alt="logo">
+                </a>
+                <div class="navbar navbar-collapse">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="">Home</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="menuDesple" data-bs-toggle="dropdown">Cursos</a>
+                            <div class="dropdown-menu"  aria-labelledby="menuDesple">
+                                <div ><a class="dropdown-item" href="">HTML y HTML5</a></div>
+                                <div ><a class="dropdown-item" href="">CSS y CSS3</a></div>
+                                <div ><a class="dropdown-item" href="">Javascript</a></div>
+                            </div>
+                        </div>
+                        <a class="nav-link" href="">Novedades</a>
+                        <a class="nav-link" href="">#</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- imagen de inicio -->
+        <div class="contenedorImagenHeader">
+            <img class="imgInicio" src="/imagenes/imgInicio.jpg" alt="imageMujerIdeas">
 
+         <!-- control de imagenes -->
+            <div class="conteControlDeImg">
+                <h1>Desarrollo Web</h1>
+                <div id="atras"><i class="fas fa-chevron-left"></i></div> 
+                <a href=""><img id="imagen" src="/imagenes/javascript.png" alt="control"></a>
+                <div id="delante"><i class="fas fa-chevron-right"></i></div>
+            </div>
+        </div>
+   </header>
+   <!-- pagina de inicio sesion uno -->
+   <section class="sesionUno">
+        <h2>Aprende a crear contenido en la web</h2>
+        <p>si hasta ahora estas iniciando, en Steje puedes eligir la opcion aprendiz que te explica paso a paso
+           y te orienta como debes iniciar y que tecnologias debes aprender primero 
+           para convertirte en un desarrollador web,
+            pero si ya conoces y quieres aprender una nueva 
+            tecnologia escoje el tema que mas te apasione y haz crecer tú
+            conocimiento.  
+        </p>   
+   </section>
+    <!-- pagina de inicio sesion dos -->
+   <section class="sesionDos">
+        
+   </section>
+
+   <script src="https://kit.fontawesome.com/d1b4062676.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+   <script src="app.js"></script> 
 </body>
 </html>
